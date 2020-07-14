@@ -1,0 +1,13 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  position: relative;
+}
+button:disabled {
+  cursor: initial;
+}
+:root {
+  --turquoise: #17a2b8;
+}

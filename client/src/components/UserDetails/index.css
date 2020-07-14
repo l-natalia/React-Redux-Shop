@@ -1,0 +1,22 @@
+.my-account input {
+  width: 20rem;
+}
+.my-account label {
+  color: var(--turquoise);
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+.my-account .buttons {
+  margin: 1rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+.my-account .fa-pencil {
+  margin-left: 1rem;
+}
+@media only screen and (max-width: 768px) {
+  .my-account .user-details h2 {
+    text-align: center;
+  }
+}

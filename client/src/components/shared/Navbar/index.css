@@ -1,0 +1,21 @@
+.navbar a {
+  font-size: 1.2rem;
+  color: white;
+  padding: 0 0.7rem;
+}
+.navbar a:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .jumbotron p {
+    width: 100%;
+  }
+  .jumbotron h1 {
+    font-size: 3rem;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+}

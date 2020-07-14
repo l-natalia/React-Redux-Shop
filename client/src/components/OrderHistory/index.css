@@ -1,0 +1,24 @@
+.order {
+  border: 2px solid var(--turquoise);
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.order img {
+  height: 2.5rem;
+  background-position: center;
+}
+.ordered-products {
+  display: flex;
+  align-items: center;
+}
+.order-history {
+  margin-bottom: 5rem;
+}
+.order-history p {
+  margin-bottom: 0;
+}
+.order-history span {
+  color: var(--turquoise);
+  font-weight: 600;
+}
