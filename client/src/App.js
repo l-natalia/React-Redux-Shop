@@ -24,7 +24,7 @@ function App() {
         <Route path="/LogIn" component={LogIn} />
         <Route path="/ProductDetail/:id" component={ProductDetail} />
         <Route path="/MyAccount" component={MyAccount} />
-        <Route component={Default} />
+        <Route component={Home} />
       </Switch>
       <Footer />
     </BrowserRouter>
